@@ -9,5 +9,6 @@ package design.pattern.prototype;
  */
 public class Main {
 	
+	
 
 }
