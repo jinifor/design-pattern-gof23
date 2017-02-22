@@ -6,12 +6,7 @@ import design.pattern.factorymethod.framework.Product;
 
 public class Manager {
 
-	private HashMap<String, Product> showcase = null;
-	
-	public Manager() {
-		showcase = new HashMap<String, Product>();
-	}
-
+	private HashMap<String, Product> showcase = new HashMap<String, Product>();
 
 	public void register(String name, Product proto) {
 		showcase.put(name,  proto);
