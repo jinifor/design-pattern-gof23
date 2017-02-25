@@ -2,14 +2,12 @@ package design.pattern.prototype;
 
 import java.util.HashMap;
 
-import design.pattern.factorymethod.framework.Product;
-
 public class Manager {
 
-	private HashMap<String, Product> showcase = new HashMap<String, Product>();
+	private HashMap showcase = new HashMap();
 
 	public void register(String name, Product proto) {
-		showcase.put(name,  proto);
+		showcase.put(name, proto);
 	}
 
 	public Product create(String protoname) {

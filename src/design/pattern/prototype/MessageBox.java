@@ -14,14 +14,14 @@ public class MessageBox implements Product {
 		int length = s.getBytes().length;
 		
 		for (int i=0; i<length+4; i++) {
-			System.out.println(decochar);
+			System.out.print(decochar);
 		}
 		
 		System.out.println("");
 		System.out.println(decochar + " " + s + " " + decochar);
 		
 		for (int i=0; i<length+4; i++) {
-			System.out.println(decochar);
+			System.out.print(decochar);
 		}
 		
 		System.out.println("");
